@@ -1,0 +1,9 @@
+*.class
+*.int
+*.gnt
+*.idy
+*.obj
+*.dll
+*.so
+*.lst
+*.err
