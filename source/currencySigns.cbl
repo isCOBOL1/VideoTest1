@@ -1,5 +1,6 @@
         IDENTIFICATION DIVISION.
         PROGRAM-ID. currencySigns.
+      *Display different currency signs
         AUTHOR. mjp.
         ENVIRONMENT DIVISION.
         configuration section. 
