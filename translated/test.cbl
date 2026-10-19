@@ -1,0 +1,6 @@
+
+       PROGRAM-ID. test.
+       PROCEDURE DIVISION.
+       MAIN.
+           DISPLAY "Hello test!".
+                    display "aggiunta!". 
