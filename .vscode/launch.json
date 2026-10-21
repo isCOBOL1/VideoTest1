@@ -1,0 +1,25 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        
+        {
+            "type": "COBOL",
+            "request": "launch",
+            "name": "COBOL debug",
+            "commandLine": "",
+            "stopOnEntry": true
+        },
+        {
+            "type": "COBOL",
+            "request": "attach",
+            "name": "COBOL attach debugger",
+            "commandLine": "",
+            "stopOnEntry": true,
+            "host": "127.0.0.1",
+            "port": 9999
+        }
+    ]
+}
