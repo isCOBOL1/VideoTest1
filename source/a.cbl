@@ -18,14 +18,14 @@ copy "isprint.def".
 procedure division.
 main.
 
-*> set wprt-as-server to true
-*> call "WIN$PRINTER" using WINPRINT-SET-PRINTER-AS
+ set wprt-as-server to true
+ call "WIN$PRINTER" using WINPRINT-SET-PRINTER-AS
                           Winprint-as
 
  move all "a" to linea-a.
  open output report-l.
  
- perform 100 times
+ perform 2 times
     perform varying i from 1 by 1 until i > 20    
        write riga from linea-a
     end-perform
