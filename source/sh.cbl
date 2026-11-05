@@ -8,13 +8,14 @@
        77 c pic is x(25).                                                      
        procedure division.
        main.                                                                                                      
-           accept c from environment "myval"                                                                                              
-           DISPLAY "My value =     " & c .                                                                                     
-           DISPLAY "String =       " & b.                                          
+           accept c from environment "myval" 
+           DISPLAY "My value =     " & c .
+           DISPLAY "String =       " & b.
            PERFORM 5 TIMES                                                                                                                
                ADD 1 TO A                                                                                                                                         
-           END-PERFORM   
-           perf                                                                                    
+           END-PERFORM
            DISPLAY "Calculation =  " & a.                                                                                      
-           add 1 to A                                                                                                          
-           goback.                                                                                                                        
+           add 1 to A 
+           goback.
+                                                                                                                                   
+          
