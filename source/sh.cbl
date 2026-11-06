@@ -13,7 +13,8 @@
            DISPLAY "My value =     " & c .
            
            perform displayb.
-           
+           move altvar1 to b.
+           perform displayb.
            PERFORM 5 TIMES                                                                                                                
                ADD 1 TO A                                                                                                                                         
            END-PERFORM
@@ -21,7 +22,7 @@
            
            goback.
        displayb.
-           DISPLAY "String =       " & altvar1.
+           DISPLAY "String =       " & b.
            
                
                                                                                                                                    
