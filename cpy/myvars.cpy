@@ -1,0 +1,1 @@
+77 altvar1  pic x(10) value ":-)4 COBOL".

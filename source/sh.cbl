@@ -3,6 +3,7 @@
        configuration section.
            SPECIAL-NAMES.                                                                                                                 
        working-storage section.
+       copy "myvars.cpy".
        77 a pic 9(1)  VALUE 0.                                                                                    
        77 b pic x(10) value "6F7g8h9i0J".                                                                         
        77 c pic is x(25).                                                      

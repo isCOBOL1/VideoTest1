@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../../Veryant/isCOBOL_SDK2026R2/sample/vscode"
+		},
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"editor.rulers": null
+	}
+}
